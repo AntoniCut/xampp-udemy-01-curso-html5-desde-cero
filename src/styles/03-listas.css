@@ -1,0 +1,63 @@
+/*
+    ---------------------------------------------------
+    ----------  /01-curso-html5-desde-cero/  ----------
+    ----------  /src/styles/03-listas.css  ------------ 
+    ---------------------------------------------------  
+*/
+
+
+.main__listas {
+    width: 100%;
+    max-width: 102.4rem;
+    margin-top: 15rem;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    border-radius: 0.5rem;
+    background-color: #EEB523;
+}
+
+.listas__title {
+    width: 100%;
+    font-size: 3rem;
+    color: #f1e8e8;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.separator {
+    max-width: 102.4rem;
+    width: 100%;
+    height: 2px;
+}
+
+
+/* Listas ordenadas (<ol>) */
+ol {
+    list-style-type: decimal;       /* numeración normal */
+    margin-left: 40px;              /* espacio a la izquierda */
+    padding-left: 0;
+}
+
+/* Listas desordenadas (<ul>) */
+ul {
+    list-style-type: disc;         /* viñeta (•) normal */
+    margin-left: 40px;
+    padding-left: 0;
+}
+
+/* Listas de definición (<dl>) */
+dl {
+    margin-left: 40px;
+}
+
+/* Elementos de definición */
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin-left: 20px;
+}

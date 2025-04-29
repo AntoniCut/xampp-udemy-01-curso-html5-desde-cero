@@ -1,0 +1,26 @@
+/*
+    ----------------------------------------------------
+    ----------  /01-curso-html5-desde-cero/  -----------
+    ----------  /src/styles/01-etiquetas.css  ---------- 
+    ----------------------------------------------------  
+*/
+
+
+.main__etiquetas {
+    width: 100%;
+    max-width: 102.4rem;
+    margin-top: 15rem; 
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border-radius: 0.5rem;
+    background-color: #EEB523;
+}
+
+.etiquetas__title {
+    font-size: 3rem;
+    color: #f1e8e8;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}

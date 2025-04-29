@@ -1,0 +1,112 @@
+<!--  
+    ---------------------------------------------------
+    ----------  /01-curso-html5-desde-cero/  ----------
+    ----------  /01-aprendiendo-html5/  --------------- 
+    ----------  /08-tablas/  -------------------------- 
+    ----------  /index.html  -------------------------- 
+    ---------------------------------------------------  
+-->
+
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="/01-curso-html5-desde-cero/src/favicon/html5-favicon.ico" type="image/x-icon">
+    <title> Tablas - Aprendiendo HTML 5 </title>
+
+    <link rel="stylesheet" href="/01-curso-html5-desde-cero/src/styles/reset.css">
+    <link rel="stylesheet" href="/01-curso-html5-desde-cero/src/styles/layout.css">
+    <link rel="stylesheet" href="/01-curso-html5-desde-cero/src/styles/08-tablas.css">
+
+</head>
+
+
+<body>
+
+    <div class="layout background-html5">
+
+        <header class="layout__header">
+
+            <img src="/01-curso-html5-desde-cero/src/img/html5-logo.ico" class="header__logo-html5" alt="logo html5">
+            <h1 class="header__title"> Tablas - Aprendiendo HTML 5 </h1>
+            <img src="/01-curso-html5-desde-cero/src/img/html5-logo.ico" class="header__logo-html5" alt="logo html5">
+
+        </header>
+
+
+        <main class="layout__main">
+
+            <section class="main__tablas">
+
+                <h2 class="tablas__title"> Tablas de HTML 5 </h2>
+                <hr class="separator">
+
+                <table border="1" sumary="Peliculas favoritas">
+                    
+                    <caption> 
+                        <strong> Mis pelis favoritas </strong> 
+                    </caption>
+                
+                    <thead>
+                        <tr>
+                            <th> Titulo </th>
+                            <th> Genero </th>
+                            <th> Año </th>
+                        </tr>
+                    </thead>
+                
+                    <tbody>
+                        
+                        <tr>
+                            <td> El señor de los anillos </td>
+                            <td> Aventuras </td>
+                            <td> 2004 </td>
+                        </tr>
+                
+                        <tr>
+                            <td> Joker </td>
+                            <td colspan="2" rowspan="2"> Drama </td>
+                        </tr>
+                
+                        <tr>
+                            <td> Batman vs superman </td>
+                        </tr>
+                    </tbody>
+                
+                    <tfoot>
+                        <tr>
+                            <td colspan="3"> Curso de html 5 de Victor Robles. </td>
+                        </tr>
+                    </tfoot>
+                
+                </table>
+                                                
+                                              
+            </section>
+
+        </main>
+
+
+        <footer class="layout__footer">
+
+            <header class="footer__header">
+                <img src="/01-curso-html5-desde-cero/src/img/html5-logo.ico" class="footer__logo-html5" alt="logo html5">
+                <h2 class="footer__title"> Bienvenido al Curso HTML 5 desde cero </h2>
+                <img src="/01-curso-html5-desde-cero/src/img/html5-logo.ico" class="footer__logo-html5" alt="logo html5">
+            </header>
+
+            <hr class="footer__separator">
+
+        </footer>
+
+    </div>
+
+</body>
+
+</html>

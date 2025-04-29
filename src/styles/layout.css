@@ -1,0 +1,75 @@
+/*
+    ---------------------------------------------------
+    ----------  /01-curso-html5-desde-cero/  ----------
+    ----------  /src/styles/layout.css  --------------- 
+    ---------------------------------------------------  
+*/
+
+
+@import '/01-curso-html5-desde-cero/src/styles/layout-header.css';
+@import '/01-curso-html5-desde-cero/src/styles/layout-navbar.css';
+@import '/01-curso-html5-desde-cero/src/styles/layout-main.css';
+@import '/01-curso-html5-desde-cero/src/styles/layout-footer.css';
+
+
+html {
+    font-size: 10px;
+    min-height: 100vh;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    box-shadow: 50px 50px 100px rgb(209, 220, 235);
+}
+
+.background-html5 {
+    background: url('/01-curso-html5-desde-cero/src/background/background-html5.jpeg');
+    background-size: cover;                 
+    background-repeat: no-repeat;           
+    background-position: center center;     
+    background-attachment: fixed;
+}
+
+.layout {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.btn__container {
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+button, 
+input[type="submit"],
+input[type="reset"]{
+    padding: 1rem 2rem;
+    background-color: cornflowerblue;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: rgb(24, 56, 116)
+}
+
+

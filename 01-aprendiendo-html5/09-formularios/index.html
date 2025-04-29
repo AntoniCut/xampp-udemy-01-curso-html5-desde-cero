@@ -1,0 +1,258 @@
+<!--  
+    ---------------------------------------------------
+    ----------  /01-curso-html5-desde-cero/  ----------
+    ----------  /01-aprendiendo-html5/  --------------- 
+    ----------  /09-formularios/  --------------------- 
+    ----------  /index.html  -------------------------- 
+    ---------------------------------------------------  
+-->
+
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="/01-curso-html5-desde-cero/src/favicon/html5-favicon.ico" type="image/x-icon">
+    <title> Formularios - Aprendiendo HTML 5 </title>
+
+    <link rel="stylesheet" href="/01-curso-html5-desde-cero/src/styles/reset.css">
+    <link rel="stylesheet" href="/01-curso-html5-desde-cero/src/styles/layout.css">
+    <link rel="stylesheet" href="/01-curso-html5-desde-cero/src/styles/09-formularios.css">
+
+</head>
+
+
+<body>
+
+    <div class="layout background-html5">
+
+        <header class="layout__header">
+
+            <img src="/01-curso-html5-desde-cero/src/img/html5-logo.ico" class="header__logo-html5" alt="logo html5">
+            <h1 class="header__title"> Formularios - Aprendiendo HTML 5 </h1>
+            <img src="/01-curso-html5-desde-cero/src/img/html5-logo.ico" class="header__logo-html5" alt="logo html5">
+
+        </header>
+
+
+        <main class="layout__main">
+
+            <section class="main__formularios">
+
+                <h2 class="formularios__title"> Formularios de HTML 5 </h2>
+                <hr class="separator">
+
+                <h3> Validación de Formularios </h3>
+                
+                <form class="formularios__validacion">
+
+                    <fieldset>
+
+                        <legend> &nbsp; &nbsp; Validación &nbsp; &nbsp; </legend>
+                        <input type="text" required minlength="5" maxlength="15" pattern="[A-Za-z ]+" />
+                        <input type="number" required max="20" min="5" />
+                        <input type="submit" value="enviar" />
+
+                    </fieldset>
+                                    
+                </form>
+                
+                
+                <h3> Formularios </h3>
+                
+                <form class="formularios__formulario" method="POST">
+                
+                    <fieldset>
+                
+                        <legend> &nbsp; &nbsp; Informacion Personal &nbsp; &nbsp; </legend>
+                                        
+                        <div>
+                            <label for="nombre"> Nombre: </label>
+                            <input type="text" name="nombre" id="nombre" placeholder="Nombre . . ." />
+                        </div>
+                
+                        
+                        <div>
+                            <button type="submit"> Enviar </button>
+                        </div>
+                
+                        
+                        <div>
+                            <label for="descripcion"> Descripción </label>
+                            <textarea id="descripcion"> </textarea>
+                        </div>
+                
+                        
+                        <div>
+                            email
+                            <input type="email" />
+                        </div>
+                
+                        
+                        <div>
+                            contraseña
+                            <input type="password" />
+                        </div>
+                
+                        <div>
+                            Radio:
+                            
+                            <div class="radio">
+                                <input type="radio" name="genero" id="hombre" value="hombre" />
+                                &nbsp; &nbsp; <label for="hombre"> Hombre </label>
+                            </div>
+                            
+                            <div class="radio">
+                                <input type="radio" name="genero" id="mujer" value="mujer" />
+                                &nbsp; &nbsp;  <label for="mujer"> Mujer </label>
+                            </div>
+                            
+                        </div>
+                
+                        <div>
+                            Select:
+                            <select>
+                                <option value="hombre"> Hombre </option>
+                                <option value="mujer"> Mujer </option>
+                                <option value="otro"> Otro </option>
+                            </select>
+                        </div>
+                
+                        <div>
+                            Checkbox:
+                            <label class="checkbox">
+                                <input type="checkbox" /> &nbsp; &nbsp; Mayor de edad
+                            </label>
+                
+                            <label class="checkbox">
+                                <input type="checkbox" />  &nbsp; &nbsp; Menor de edad 
+                            </label>
+                        </div>
+                
+                        <div>
+                            Color:
+                            <input type="color" />
+                        </div>
+                
+                        <div>
+                            Fecha:
+                            <input type="date" />
+                        </div>
+                
+                        <div>
+                            Ficheros:
+                            <input type="file" />
+                        </div>
+                
+                        <div>
+                            Imagen:
+                            <input type="image" src="/01-curso-html5-desde-cero/src/img/gato.png"
+                                alt="Gato" />
+                        </div>
+                
+                        <div>
+                            Oculto:
+                            <input type="hidden" name="oculto" value="supercalifrajilisticoespialidoso" />
+                        </div>
+                
+                        <div>
+                            Numero:
+                            <input type="number" />
+                        </div>
+                
+                        <div>
+                            Rango:
+                            <input type="range" name="Rango" />
+                        </div>
+                
+                        <div>
+                            Buscar:
+                            <input type="search" name="buscar" />
+                            <br>
+                            <button> Buscar </button>
+                        </div>
+                
+                        <div>
+                            Telefono:
+                            <input type="tel" name="telefono" />
+                        </div>
+                
+                        <div>
+                            Hora:
+                            <input type="time" name="telefono" />
+                        </div>
+                
+                        <div>
+                            Mes:
+                            <input type="month" value="mes" />
+                        </div>
+                
+                        <div>
+                            Sitio web:
+                            <input type="url" />
+                
+                        </div>
+                
+                        <div>
+                            Barra progreso:
+                            <progress max="100" value="45"></progress>
+                
+                        </div>
+                
+                        <div>
+                            Meter:
+                            <meter max="100" value="30"></meter>
+                        </div>
+                
+                        <div>
+                            Lista de datos:
+                            <input list="frutas" name="fruta" />
+                            <datalist id="frutas">
+                                <option value="manzana" />
+                                <option value="naranja" />
+                                <option value="cereza" />
+                                <option value="sandia" />
+                                <option value="pera" />
+                            </datalist>
+                        </div>
+                
+                    </fieldset>
+                
+                    <div class="btn__container">
+
+                        <input type="submit" value="enviar formulario" />
+                        <input type="reset" value="Limpiar formulario" />
+
+                    </div>
+                                        
+                
+                </form>
+                                                
+                                              
+            </section>
+
+        </main>
+
+
+        <footer class="layout__footer">
+
+            <header class="footer__header">
+                <img src="/01-curso-html5-desde-cero/src/img/html5-logo.ico" class="footer__logo-html5" alt="logo html5">
+                <h2 class="footer__title"> Bienvenido al Curso HTML 5 desde cero </h2>
+                <img src="/01-curso-html5-desde-cero/src/img/html5-logo.ico" class="footer__logo-html5" alt="logo html5">
+            </header>
+
+            <hr class="footer__separator">
+
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
