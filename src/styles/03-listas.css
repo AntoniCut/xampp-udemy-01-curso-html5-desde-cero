@@ -9,7 +9,6 @@
 .main__listas {
     width: 100%;
     max-width: 102.4rem;
-    margin-top: 15rem;
     padding: 3rem;
     display: flex;
     flex-direction: column;

@@ -43,3 +43,20 @@
     width: 100%;
     height: auto;
 }
+
+
+/*  -----  Responsive  -----  */
+
+@media(max-width: 715px ) {
+
+    .home__title {
+        font-size: 2rem ;
+    }
+}
+
+@media(max-width: 370px ) {
+
+    .home__title {
+        font-size: 1.8rem ;
+    }
+}

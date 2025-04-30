@@ -5,11 +5,9 @@
     ---------------------------------------------------------  
 */
 
-
 .main__proyecto-html5 {
     width: 100%;
     max-width: 102.4rem;
-    margin-top: 5rem;
     padding: 3rem;
     padding-bottom: 6rem;
     display: flex;
@@ -19,19 +17,26 @@
     background-color: #EEB523;
 }
 
-.proyecto-html5__title {
-    width: 100%;
-    font-size: 3rem;
-    color: #f1e8e8;
-    text-align: center;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+.proyecto-html5__top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: rgb(89, 164, 230);
+    border-radius: 5px;
+    transition: all 300ms linear;
 }
 
-.separator {
-    max-width: 102.4rem;
-    width: 100%;
-    height: 2px;
+.proyecto-html5__top:hover {
+    background-color: rgba(59, 117, 168, 0.8);
 }
+
+.layout__navbar--proyecto-html5 {
+    margin-top: 0;
+}
+
+
+/*  -----  Articulos  -----  */
 
 .proyecto-html5__articles {
     display: flex;
@@ -51,18 +56,36 @@
     padding: 1rem;
 }
 
-.proyecto-html5__top {
+
+/*  -----  Multimedia  -----  */
+
+.proyecto-html5__multimedia {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    padding: 2rem;
-    background-color: rgb(89, 164, 230);
-    border-radius: 5px;
-    transition: all 300ms linear;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
 }
 
-.proyecto-html5__top:hover {
-    background-color: rgba(59, 117, 168, 0.8);
+
+/*  -----  Dieta  -----  */
+
+.proyecto-html5__dieta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+}
+
+
+/*  -----  Contacto  -----  */
+
+.proyecto-html5__contacto {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
 }
 
 .contacto__formulario {
@@ -75,13 +98,11 @@
 
 
 
-
-
+/*
 #container{
     max-width: 1000px;
     width: 100%;
     margin: 0 auto;
-    /* border: 1px solid black; */
 }
 
 .cabecera{
@@ -125,8 +146,6 @@
     padding: 20px;
 }
 
-
-
 .clearfix{
     clear: both;
 }
@@ -156,3 +175,4 @@
     color: white;
     text-align: center;
 }
+*/
